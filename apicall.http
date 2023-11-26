@@ -1,0 +1,19 @@
+POST http://localhost:8000/generate_response HTTP/1.1
+Host: localhost:8000
+Content-Type: application/json
+api-key: SOMEAPIKEY
+
+{
+  "query": "what is the openai assistants api?"
+}
+
+###
+
+POST https://ACA_URL/generate_response HTTP/1.1
+Host: ACA_URL
+Content-Type: application/json
+api-key: SOMEAPIKEY
+
+{
+  "query": "what is Radius?"
+}
