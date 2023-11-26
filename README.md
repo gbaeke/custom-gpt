@@ -2,6 +2,8 @@
 
 Custom GPT to query baeke.info
 
+See this blog post: https://blog.baeke.info/?p=4178
+
 ## Modify .env
 
 Add your Azure OpenAI API key and the Azure AI Search API key.
