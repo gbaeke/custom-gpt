@@ -50,6 +50,7 @@ def get_embeddings(text: str):
         api_key=open_ai_key,
         api_version="2023-09-01-preview",
     )
+    # make sure this model is deployed in your Azure OpenAI resource
     embedding = client.embeddings.create(input=[text], model="text-embedding-ada-002")
     return embedding.data[0].embedding
 
